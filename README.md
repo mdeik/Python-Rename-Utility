@@ -1,15 +1,12 @@
-**Python-Rename-Utility**
-=========================
+# Python-Rename-Utility
 
 A Python script for renaming files within directories based on user-specified rules.
 
-**Introduction**
----------------
+## Introduction
 
 The `rename_utility.py` script allows you to rename one or more files within a directory by applying various replacement, removal, and addition operations. The utility also supports recursive subdirectory scanning, logging, and dry run modes.
 
-**Features**
-------------
+## Features
 
 *   **Replacement**: Replace specific strings in file names with user-specified replacements.
 *   **Removal**: Remove sections from file names using start and end indices or negative values for counting from the end of the string.
@@ -19,8 +16,7 @@ The `rename_utility.py` script allows you to rename one or more files within a d
 *   **Logging**: Log renaming actions to a file for auditing purposes.
 *   **Dry Run Mode**: Perform a simulation of the renaming process without making any actual changes.
 
-**Usage**
----------
+## Usage
 
 To use this utility, simply run `rename_utility.py` from the command line or import it in your Python scripts. The script will guide you through the interactive configuration and execution process.
 
@@ -45,8 +41,7 @@ rename_utility.rename(
 )
 ```
 
-**Options**
-------------
+## Options
 
 The `rename` function accepts the following keyword arguments:
 
@@ -64,10 +59,3 @@ The `rename` function accepts the following keyword arguments:
 *   `log`: Flag to log renaming actions to a file.
 *   `log_path`: Path to the log file.
 *   `test`: Flag to perform a dry run without making any changes.
-
-**Troubleshooting**
---------------------
-
-For troubleshooting and error handling, refer to the script's output messages or consult the documentation for specific issues.
-
-That's it! I hope this helps you understand and use the Python-Rename-Utility effectively.
